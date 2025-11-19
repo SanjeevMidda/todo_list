@@ -1,3 +1,32 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+.mainContent {
+  width: 30dvw;
+  border: 1px solid black;
+}
+
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  .actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
