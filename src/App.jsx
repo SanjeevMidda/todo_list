@@ -12,17 +12,14 @@ function App() {
   return (
     <>
       <header>
-        <h1>To</h1>
-        <h1>do</h1>
+        <h1>My To-Do List</h1>
       </header>
       <div className="mainContent">
-        <h2>My To-Do List</h2>
-
-        <div className="listContainer">
+        <ul>
           {tasks.map((task, index) => {
             return <Task taskItem={task} key={index} />;
           })}
-        </div>
+        </ul>
       </div>
     </>
   );
