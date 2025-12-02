@@ -5,15 +5,13 @@ const Task = ({ taskItem }) => {
 
   return (
     <div className="taskContainer">
-      <p>D</p>
       <li>{taskItem}</li>
 
       <div className="actions">
-        <button>🗑️</button>
-
         <label>
           <input type="checkbox"></input>
         </label>
+        <button>🗑️</button>
       </div>
     </div>
   );
